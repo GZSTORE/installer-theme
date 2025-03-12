@@ -139,7 +139,7 @@ while [ "$done" == false ]; do
     "Install Background Video (Only 1.7.0 and 1.8.1)"
     "Install Animated Graphics (Only 1.6.6 and 1.7.0)"
     "Install Control Panel (Only All Version ubuntu)"
-    "Install NightCore Theme (all version ubuntu)
+    "Install NightCore Theme (Only All Version ubuntu)
     
     
     "Cancel Installation"
