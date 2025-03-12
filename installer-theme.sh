@@ -119,6 +119,10 @@ AnimatedGraphics() {
 bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/AnimatedGraphics/build.sh)
 }
 
+ControlPanel() {
+bash <(curl -s https://raw.githubusercontent.com/GZSTORE/CtrlPanel/main/ctrlpanel-installer.sh)
+}
+
 
 while [ "$done" == false ]; do
   options=(
@@ -130,6 +134,7 @@ while [ "$done" == false ]; do
     "Install Flanco Theme (Only 1.6.6 and 1.7.0)"
     "Install Background Video (Only 1.7.0 and 1.8.1)"
     "Install Animated Graphics (Only 1.6.6 and 1.7.0)"
+    "Install Control Panel (Only All Version ubuntu)"
     
     
     "Cancel Installation"
@@ -144,6 +149,7 @@ while [ "$done" == false ]; do
     "FlancoTheme"
     "BackgroundVideo"
     "AnimatedGraphics"
+    "ControlPanel"
     
     
     "cancel"
