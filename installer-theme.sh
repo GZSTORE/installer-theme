@@ -127,6 +127,10 @@ NightCore() {
 bash <(curl -s https://raw.githubusercontent.com/GZSTORE/theme/main/installl.sh)
 }
 
+ControlPanelv2() {
+bash <(curl -s https://raw.githubusercontent.com/GZSTORE/ctrlpanelzyuga/main/installctrlpanel.sh)
+}
+
 
 while [ "$done" == false ]; do
   options=(
@@ -140,6 +144,7 @@ while [ "$done" == false ]; do
     "Install Animated Graphics (Only 1.6.6 and 1.7.0)"
     "Install Control Panel (Only All Version ubuntu)"
     "Install NightCore Theme (Only All Version ubuntu)"
+    "Install Control Panel v2 (Only All Version ubuntu)"
     
     
     "Cancel Installation"
@@ -156,6 +161,7 @@ while [ "$done" == false ]; do
     "AnimatedGraphics"
     "ControlPanel"
     "NightCore"
+    "ControlPanelv2
     
     
     "cancel"
