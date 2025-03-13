@@ -161,7 +161,7 @@ while [ "$done" == false ]; do
     "AnimatedGraphics"
     "ControlPanel"
     "NightCore"
-    "ControlPanelv2
+    "ControlPanelv2"
     
     
     "cancel"
